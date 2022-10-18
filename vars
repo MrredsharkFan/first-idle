@@ -1,0 +1,16 @@
+var points = 0
+var pps = 0
+var ppc = 0
+var upg1Cost = 25
+var upg2Cost = 400
+var pp = 0
+var pUpg1Cost = 1
+var pUpg2Cost = 5
+var pUpg3Cost = 10
+var pUpg4Cost = 200
+
+function start(){
+points = points + pps/30
+}
+
+setInterval(start(),30,1)
